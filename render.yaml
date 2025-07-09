@@ -1,0 +1,7 @@
+services:
+  - type: private_service
+    name: redis
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    autoDeploy: false
